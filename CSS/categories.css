@@ -1,4 +1,4 @@
-.categories h3 {
+.categories h2 {
   margin: 88px auto 24px;
   width: 300px;
   text-align: center;
@@ -24,20 +24,16 @@
   text-align: center;
   padding: 41px 16px;
   text-decoration: none;
+  margin: 24px auto;
 }
 
-.categorie.pacotes {
-  margin: 32px auto;
-}
-
-.categorie.pacotes h4 {
+.categorie h3 {
   font-family: var(--titles-weight);
   font-size: 28px;
   margin-top: 24px;
   color: var(--text-primary-color);
 }
 
-.icon {
-  width: 40px;
-  height: 60px;
+.categories-cards .categorie.single-line.transfer img {
+  margin: 10px 0 20px;
 }
