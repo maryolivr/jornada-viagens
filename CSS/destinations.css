@@ -5,3 +5,9 @@
   padding: 0;
   margin-bottom: 24px;
 }
+
+.img-item {
+  height: 400px;
+  width: 100%;
+  background: url(../img/tokyo-mobile.jpg) no-repeat;
+}
