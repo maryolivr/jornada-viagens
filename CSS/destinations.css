@@ -1,67 +1,68 @@
-.destinations .item header {
-  display: block;
-  background-color: transparent;
-  position: static;
-  padding: 0;
-  margin-bottom: 24px;
-}
-
-.item {
+.destination-items {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 24px;
 }
 
-.img-item {
-  height: 360px;
-  width: 312px;
+.destinations .item .img-item {
+  width: 100%;
+  height: 368px;
 }
-
-.item h4 {
-  font-size: 28px;
-  font-weight: var(--titles-weight);
-  margin: 24px 0px 0px;
-}
-
-.item p {
-  font-size: 20px;
-  font-weight: var(--text-weight);
-  line-height: 1.5;
-  margin: 24px;
-  margin-top: 0px;
-}
-
-.item .button {
-  display: block;
-  box-sizing: border-box;
-  width: 312px;
-  margin-bottom: 0px;
-}
-
-.img-item.tokyo {
-  background: url(../img/tokyo-mobile.jpg) no-repeat;
+.destinations .item.tokyo .img-item {
+  background: url(../img/tokyo-mobile.jpg);
   background-size: cover;
 }
-.img-item.osaka {
-  background: url(../img/osaka-mobile.jpg) no-repeat;
+.destinations .item.osaka .img-item {
+  background: url(../img/osaka-mobile.jpg);
   background-size: cover;
-  margin-top: 40px;
+}
+
+.destinations .item header h3 {
+  margin: 24px 0;
+}
+.destinations .item p {
+  margin-bottom: 24px;
+}
+.destinations .button {
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
-  .img-item.tokyo {
-    background: url(../img/tokyo-tablet-desktop.jpg) no-repeat;
-    background-size: cover;
-    height: 452px;
+  .destinations {
     width: 648px;
   }
-  .img-item.osaka {
-    background: url(../img/osaka-tablet-desktop.jpg) no-repeat;
-    background-size: cover;
+  .destinations .item .img-item {
+    width: 100%;
     height: 452px;
-    width: 648px;
+  }
+  .destinations .item.tokyo .img-item {
+    background: url(../img/tokyo-tablet-desktop.jpg);
+    background-size: cover;
+  }
+  .destinations .item.osaka .img-item {
+    background: url(../img/osaka-tablet-desktop.jpg);
+    background-size: cover;
+  }
+  .destinations .button {
+    width: 280px;
   }
 }
-
 @media screen and (min-width: 1024px) {
+  .destinations {
+    width: 900px;
+  }
+
+  .destinations .item .img-item {
+    width: 100%;
+    height: 452px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .destinations {
+    width: 1200px;
+  }
+  .destination-items {
+    flex-direction: row;
+  }
 }
