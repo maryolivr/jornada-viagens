@@ -116,6 +116,9 @@ section.bottom-hero {
   .button:hover {
     background-color: var(--primary-color);
   }
+  .section-title {
+    margin: 0 auto 64px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
