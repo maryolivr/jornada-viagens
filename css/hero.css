@@ -26,6 +26,10 @@
   background-size: cover;
 }
 
+.packages-items {
+  margin-bottom: 88px;
+}
+
 .content-package {
   padding: 65px 24px;
 }
@@ -71,9 +75,10 @@
   }
 
   .content-package {
-    width: 580px;
-    padding: 0px 69px 108px;
+    width: 600px;
+    padding: 0px 68px 108px 120px;
   }
+
   .content-package p {
     font-size: 32px;
     line-height: 150%;
@@ -83,7 +88,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: center;
   }
   .packages-items {
     min-height: 620px;
