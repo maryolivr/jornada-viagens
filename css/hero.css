@@ -26,6 +26,10 @@
   background-size: cover;
 }
 
+.packages-items {
+  margin-bottom: 88px;
+}
+
 .content-package {
   padding: 65px 24px;
 }
