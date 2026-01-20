@@ -102,6 +102,7 @@
   .container-payments {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 23px;
   }
 
