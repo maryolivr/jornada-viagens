@@ -53,6 +53,10 @@
     margin: 52px 80px;
   }
 
+  .footer-content .p-dois {
+    text-align: left;
+  }
+
   .footer-content img {
     display: block;
     text-align: left;
